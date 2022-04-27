@@ -49,7 +49,7 @@ body{
     justify-content: center;
 }
 .homepage{
-    background: url(/images/homepage-image.jpg);
+    background: url(https://images/homepage-image.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     max-width: 62.5rem;
