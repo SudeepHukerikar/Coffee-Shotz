@@ -1,0 +1,168 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&family=Lobster&family=Orelega+One&family=Poppins:wght@200;300&family=Roboto:ital,wght@0,300;1,400&family=Sacramento&family=Shizuru&family=Square+Peg&display=swap');
+body{
+    height: 300vh;
+    margin: 0;
+}
+.nav{
+    width: 100%;
+    height: 3em;
+    margin-bottom: 0.7%;
+}
+.logo{
+    font-size: 1.3rem;
+    font-family: 'Lobster',cursive;
+    color: #DEA057;
+    margin: 1em 0 0.3em 5em;
+}
+.nav ul{
+    text-align: right;
+    list-style: none;
+    line-height: 75px;
+    position: relative;
+    bottom: 6rem;
+    right: 3rem;
+}
+.nav ul li{
+    display: inline;
+    padding: 2rem;
+}
+.nav ul li a{
+    color: #DEA057;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.nav ul li a:hover{
+    color: white;
+    background: #DEA057;
+    padding: 3px 6px 3px 6px;
+    border-radius: 20px;
+}
+
+.main{
+    background: #F8ECD1;
+    height: 100vh;
+    position: relative;
+    top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.homepage{
+    background: url(/images/homepage-image.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width: 62.5rem;
+    height: 41.5rem;
+    border-radius: 10px;
+}
+.homepage h1{
+    color: white;
+    font-size: 4.1rem;
+    height: 5rem;
+    width: 50%;
+    padding: 11rem 0 0 5.1rem;
+}
+
+.second-head{
+    text-align: center;
+    font-size: 5rem;
+    font-family: 'Lobster',cursive;
+    color: #DEA057;
+    position: relative;
+    top: 2%;
+}
+.second-page{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10% 4% 0 4%;
+}
+.second-page-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #F7F5F2;
+    text-align: center;
+    font-family: 'Orelega One',cursive;
+    font-size: 1.5rem;
+    color: #FF9F45;
+    border-radius: 10px;
+    padding: 2rem;
+    padding-bottom: 1rem;
+    transition-property: all;
+    transition-duration: 250ms;
+}
+.second-page-content:hover{
+    padding: 3rem;
+    padding-bottom: 2rem;
+    border-radius: 30%;
+}
+
+.connect{
+    position: relative;
+    top: 2%;
+}
+.contact-head{
+    text-align: center;
+    font-size: 5rem;
+    font-family: 'Lobster',cursive;
+    color: #DEA057;
+    position: relative;
+}
+.contact{
+    background: #DEA057;
+    text-align: center;
+    line-height: 2;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #F7F5F2;
+    border-radius: 20px;
+    width: 60%;
+    margin: auto;
+    padding: 3rem 0 3rem 0;
+}
+.btn {
+    -webkit-border-radius: 12;
+    -moz-border-radius: 12;
+    border-radius: 12px;
+    font-family: Arial;
+    color: #DEA057;
+    font-size: 20px;
+    background: #ffffff;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin-top: 2%;
+}
+
+.btn:hover {
+    background: #ffffff;
+    text-decoration: none;
+}
+
+.bottom-container{
+    width: 100%;
+    height: 7rem;
+    background-color: #DEA057;
+    text-align: center;
+    position: relative;
+    top: 6rem;
+    background-image: u;
+}
+.bottom-container a{
+    text-decoration: none;
+    color: #FFD59E;
+    font-size: 1.4rem;
+    padding: 30px;
+    position: relative;
+    top: 1.3rem;
+}
+.bottom-container a:hover{
+    color: white;
+}
+.bottom-container p{
+    color: #F7F5F2;
+    font-size: 1.2rem;
+    position: relative;
+    top: 1rem;
+}
