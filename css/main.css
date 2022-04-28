@@ -49,8 +49,8 @@ body{
     justify-content: center;
 }
 .homepage{
-    background: url(https://www.pexels.com/photo/coffee-mug-surrounded-with-coffee-beans-585753/);
-    background-size: contain;
+    background: url (https://www.pexels.com/photo/coffee-mug-surrounded-with-coffee-beans-585753/);
+    background-size: cover;
     background-repeat: no-repeat;
     max-width: 62.5rem;
     height: 41.5rem;
